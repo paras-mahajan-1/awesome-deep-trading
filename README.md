@@ -209,3 +209,264 @@ Open access: all rights granted for use and re-use of any kind, by anyone, at no
 
 FINAL STAGE OF ALGO THOUGHTS:-
 https://rcosta-git.github.io/
+
+
+Rob Costa
+Rob’s Quant Econ and Algo Trading Resource Page
+📚 Navigation 📊     [ Home | About Me ]
+
+Hi everyone, this is Rob’s page on quantitative finance and algorithmic trading. A lot of what happens at the hedge funds doing quantitative analysis is quite secretive, but I am hoping to work on making some finance models more accessible, while keeping some of the code I develop still private between me and my collaborators. Below is some published literature on portfolio analysis and hedging, lists of research journals, classic economics texts, options and futures video tutorials, and more. Investors should contact me at Acadia Analytics LLC. A prototype of our platform is available here, and I’m actively fundraising to improve it. For math and logic, see my Google Drive. For academic questions, contact me at my Tufts email.
+Table of Contents
+
+    Financial Analysis: Start Here
+        Introduction
+        Video lecture series
+        Textbooks and articles on core concepts
+    Recent Research
+        Articles on Machine Learning, Mathematical Finance, and High-Frequency Trading
+        Unpublished AMS abstracts
+    Classic and Historic Economic Literature References
+    Books on trading psychology and methodology
+    Mathematicians who have had trading success
+    Further Video References
+        Hidden Markov Models & Bayesian Methods
+        Long Short-Term Memory (LSTM) & Recurrent Neural Networks (RNN)
+        Automated analysis and trading in python
+        Understanding options
+        Understanding futures
+    GitHub repositories
+    Medium articles
+
+Quantitative Financial Analysis and Trading: Start Here
+Introduction
+
+I essentially see three types of accessible short-term quantitative trading strategies:
+
+    Statistical Arbitrage: It involves identifying a statistical relationship between two or more assets and profiting from the mispricing of the assets (pairs trading).
+    Momentum Trading: Using machine learning algorithms and indicators to identify short-term momentum and scalping profits from temporary long or short positions or options.
+    Collecting Premiums: Identifying options with high premiums and profiting from the selling of the options. This can also involve rangebound strategies like “the wheel.”
+
+While my focus is currently on short-term trading, I also have an interest in long-term trading and investment. Quantitative strategies could also take the form of studying a company’s balance sheet, competitive positioning, and management practices, and assigning a value to the company based on these factors, engaging in value investing. Building up portfolios of undervalued stocks and holding them for the long term could form one component of this strategy, while diversifying and rebalancing portfolios according to mean-variance analysis, or “modern portfolio theory,” as first developed by Markowitz. Several related pages:
+
+    Interactive Brokers (IBKR) has a nice introduction to algorithmic trading and a well-documented API, alongside brokers like TastyTrade, E*Trade and Webull.
+    Quantocracy and QuantSeeker, QuantStart list lots of articles and academic research on quantitative trading.
+    OpenQuant-Community is a China-based open quant trading community with some resources on GitHub.
+    Awesome-Quant-Machine-Learning-Trading is another collection of great resources on GitHub.
+
+Video lecture series
+
+Here are a few lecture series on financial mathematics, probability, statistics, and machine learning:
+
+    MIT 14.01 Principles of Microeconomics, Fall 2023
+    MIT 18.S096 Topics in Mathematics with Applications in Finance, Fall 2013
+    MIT 15.401 Finance Theory I, Fall 2008
+    MIT 15.402 Finance Theory II, Spring 2003
+    MIT 18.650 Statistics for Applications, Fall 2016
+    MIT 6.S191: Introduction to Deep Learning
+    MIT 6.041 Probabilistic Systems Analysis and Applied Probability
+    MIT RES.6-012 Introduction to Probability, Spring 2018
+    Stanford CS109: Probability for Computer Scientists
+    Stanford CS229: Machine Learning
+    Harvard Statistics 110: Probability
+    Harvard CS 224: Advanced Algorithms
+    Yale Quantitative Finance
+    Yale Game Theory
+    Yale Financial Markets
+    Yale History of Capitalism
+
+Reference Textbooks and articles on core concepts
+
+This is a selection of good reference articles and books, organized by publication date:
+
+    Principles of Economics (Marshall, 1890)
+    The Theory of Speculation (Bachelier, 1900)
+    On the Theory of the Consumer’s Budget (Slutsky, 1915)
+    Technical Analysis and Stock Market Profits(Schabacker, 1932)
+    Security Analysis: Principles and Technique (Graham & Dodd, 1934)
+    Value and Capital (Hicks, 1939)
+    Theory of Games and Economic Behavior (Von Neumann & Morgenstern, 1944)
+    Portfolio Selection: Efficient Diversification of Investments (Markowitz, 1952)
+    The Kelly Criterion in Blackjack, Sports Betting, and the Stock Market (Thorpe, 1997)
+    Technical Analysis of the Financial Markets (Murphy, 1999)
+    Dynamic Asset Pricing Theory (Duffie, 2001)
+    Handbook of Asset and Liability Management (Adam, 2007)
+    Hidden Markov Models Lecture Notes (van Handel, 2008)
+    Python for Finance (Hilpisch, 2014)
+    Python for Algorithmic Trading (Hilpisch, 2020)
+    Machine Learning for Algorithmic Trading (Jansen, 2020)
+
+Recent Research
+
+Here is a list of some top academic journals:
+
+    Mathematical Finance - Wiley Online Library
+    SIAM Journal on Financial Mathematics
+    Journal of Mathematical Finance - SCIRP
+    Mathematics and Financial Economics - Springer
+    Journal of Asset Management - Taylor & Francis
+    Frontiers of Mathematical Finance - AIMS
+
+Articles on Machine Learning, Mathematical Finance, and High-Frequency Trading
+
+Here are some recent articles I found, some of which are from researchers I met presenting on their work at the 2025 Joint Math Meetings. An older but relevant article that Tufts University president Kumar told me he wrote is Multidimensional portfolio optimization with proportional transaction costs (Muthuraman & Kumar, 2006).
+
+    Predicting stock market index using LSTM
+    Predicting NEPSE index price using deep learning models
+    Hedging via Perpetual Derivatives: Trinomial Option Pricing and Implied Parameter Surface Analysis
+    The Distribution Builder: A Tool for Inferring Investor Preferences
+    Analysis of Investment Returns as Markov Chain Random Walk
+    Semi-static conditions in low-latency C++ for high frequency trading: Better than branch prediction hints
+    Parallel computing in finance for estimating risk-neutral densities through option prices
+    A hidden Markov model for statistical arbitrage in international crude oil futures markets
+    The High-Frequency Trading Arms Race: Frequent Batch Auctions as a Market Design Response
+    On the Market-Neutrality of Optimal Pairs-Trading Strategies
+    Formal verification of trading in financial markets
+    C++ Design Patterns for Low-Latency Applications Including High-Frequency Trading
+
+Unpublished AMS abstracts
+
+These abstracts are all from the 2025 Joint Math Meetings, but were not yet published.
+
+    Can We See the Next Recession Coming? Deep Learning in Economic Forecasting.
+    FOREX Prediction Using Deep Learning
+    Deep Learning Techniques for Equity Portfolio Construction, Optimization, and Performance Analysis
+    Wavelet Based Reinforcement Learning for Pairs Trading Across Multiple Asset Classes
+
+Classic and Historic Economic Literature References
+
+This list contains landmark texts in the history of economics from the last several hundred years. It is an incomplete list, and I wouldn’t say it’s necessary to read them all, but skim through anything that is of interest and be aware of the timeline:
+
+    Sir William Petty’s 1662 A Treatise of Taxes and Contributions discusses principles of taxation and public expenditure, emphasizing the need for equitable and efficient taxation systems.
+    Adam Smith’s 1776 An Inquiry into the Nature and Causes of the Wealth of Nations, often abbreviated as The Wealth of Nations, is considered his magnum opus and the first modern work that treats economics as a comprehensive system and an academic discipline.
+    David Ricardo’s 1817 On The Principles of Political Economy and Taxation introduces the theory of comparative advantage, arguing that countries should specialize in producing goods where they have a lower opportunity cost, benefiting from trade even without an absolute advantage.
+    John Stuart Mill’s 1848 Principles of Political Economy explores the production and distribution of wealth, focusing on labor, capital, and land.
+    Walter Bagehot’s 1873 Lombard Street: A Description of the Money Market provides insights into central banking and financial crises, establishing the concept of the lender of last resort.
+    Francis Ysidro Edgeworth is credited with introducing indifference curves in his 1881 book Mathematical Psychics: An Essay on the Application of Mathematics to the Moral Sciences.
+    Alfred Marshall is renowned for his foundational book Principles of Economics (1890), which laid the groundwork for modern microeconomics. Although Marshall did not directly develop indifference curves, his work on utility and consumer behavior influenced later economists.
+    Louis Bachelier is credited with being the first person to model the stochastic process now called Brownian motion, as part of his doctoral thesis The Theory of Speculation (Théorie de la spéculation, defended in 1900).
+    Vilfredo Pareto’s most famous economic work is his Manual of Political Economy (1906), which significantly shaped modern microeconomics and welfare economics. In this text, Pareto introduced key concepts such as Pareto optimality and the Pareto Principle.
+    The Slutsky equation, which decomposes the price effect into substitution and income effects, was first published by Russian-Soviet economist Eugene Slutsky in his 1915 paper “Sulla teoria del bilancio del consummatore” (On the Theory of the Consumer’s Budget). Another notable paper by Slutsky is his 1937 publication The Summation of Random Causes as the Source of Cyclic Processes.
+    Charles Dow published 255 editorials in the Wall Street Journal analyzing American stock market data using technical analysis, forming the foundations of what is now called Dow theory. William Hamilton expanded upon Dow theory in The Stock Market Barometer (1922).
+    Gustav Cassel’s Theory of Social Economy, first published in 1923, is a comprehensive work that outlines his approach to economics. It emphasizes the interconnectedness of economic phenomena and the need for a systematic approach to understanding economic systems.
+    Ragnar Frisch coined the term econometrics in 1926 for utilising statistical methods to describe economic systems, as well as the terms microeconomics and macroeconomics in 1933, was one of the founders of the Econometric Society, and served as the first editor of the Econometrica journal from 1933 to 1954. His speech accepting the first Nobel Prize in Economics in 1969 is From Utopian Theory to Practical Applications: The Case of Econometrics.
+    Irving Fisher’s most famous work is The Theory of Interest (1930), which synthesized his lifetime research on capital, investment, and interest rates.
+    Richard Schabacker continued the work of Dow and Hamilton in Technical Analysis and Stock Market Profits (1932).
+    Lionel Robbins’ An Essay on the Nature and Significance of Economic Science, first published in 1932, defines economics as a science and explores its methodology and scope.
+    John Hicks significantly contributed to economics, particularly with Value and Capital (1939), where he popularized the indifference curve approach. This book provided a detailed framework for understanding consumer behavior using indifference curves, marking a shift towards ordinal utility theory.
+    Benjamin Graham and David Dodd laid out the foundations of fundamental analysis in Security Analysis: Principles and Technique (1934). Graham further developed value investing in The Intelligent Investor (1949).
+    The General Theory of Employment, Interest, and Money (1936) by John Maynard Keynes replaced the neoclassical understanding of employment with Keynes’ view that demand, and not supply, is the driving factor determining levels of employment.
+    John von Neumann made groundbreaking contributions to economics through Theory of Games and Economic Behavior (1944), co-authored with Oskar Morgenstern. This work established game theory as a major field in economics.
+    Alfred Cowles founded Yale’s Cowles Commission for Research in Economics, which advanced the field of econometrics in the 20th century. Two of his notable publications in Econometrica are Stock Market Forecasting (1944) and A Revision of Previous Conclusions Regarding Stock Price Behavior (1960).
+    Paul Samuelson’s Foundations of Economic Analysis (1947) established modern economic theory by applying mathematical rigor to economic analysis, introducing fundamental concepts like revealed preference and laying the groundwork for modern microeconomics and welfare economics.
+    In 1948, Robert Edwards and John Magee published Technical Analysis of Stock Trends which is widely considered to be one of the seminal works of the discipline.
+    The Markowitz model of portfolio management was put forward by Harry Markowitz in 1952 in Portfolio Selection: Efficient Diversification of Investments.
+    Don Patinkin’s seminal work, Money, Interest, and Prices (1956, expanded in 1965), revolutionized monetary and macroeconomic theory by integrating Keynesian insights with neoclassical microfoundations.
+    One of Milton Friedman’s most popular works, A Theory of the Consumption Function (1957), challenged traditional Keynesian viewpoints about the household. He went on to publish Capitalism and Freedom (1962), in which he argues for economic freedom as a precondition for political freedom.
+    William Sharpe was one of the originators of the capital asset pricing model (CAPM) in his Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk (1964), despite it originally being rejected for publication. He developed the Sharpe ratio for evaluating returns on risk in Mutual Fund Performance (1966).
+    The science of bond analysis was largely founded by Martin Leibowitz and Sidney Homer’s Inside the Yield Book (1972).
+    For a modern guide to technical analysis, take a look at John Murphy’s Technical Analysis of the Financial Markets: A Comprehensive Guide to Trading Methods and Applications (1999).
+    Darrell Duffie wrote a widely referenced 2001 book on Dynamic Asset Pricing Theory, as well as a 2002 survey of Intertemporal Asset Pricing Theory.
+    For an overview of the current state of macroeconomics, see Brian Snowdon and Howard Vane’s Modern Macroeconomics (2005) and Sanjay Chugh’s Modern Macroeconomics (2015).
+
+Books on trading psychology and methodology
+
+A lot of what makes someone a good trader is their ability to stick to their system and set emotions aside. One author has even suggested applying the 12 steps to achieve the emotional sobriety necessary for effective trading. While using an automated system may resolve some of these issues, I’d still recommend taking a look at these for the perspective:
+
+    Some good books on trading include High Probability Trading, Option Volatility and Pricing, Options Trading: The Bible, Get Rich With Options, and Mind over Markets.
+    For more historical perspectives on trading, I also enjoyed reading the Market Wizards books, When Genius Failed, Michael Lewis’s writings from the last few decades such as Liar’s Poker through Going Infinite, and The Complete TurtleTrader about the Turtle Trading experiment.
+    Also for more general tips, The Money Game, Trading for a Living, The Zen Trader, Winning the Loser’s Game, Mastering the Trade, and Trading in the Zone, or memoirs like How I Made $2,000,000 in the Stock Market from Nicolas Darvas and Reminiscences of a Stock Operator about Jesse Livermore.
+
+Mathematicians who have had trading success
+
+I find inspiration in seeing the successes of others from a math background who have applied similar techniques:
+
+    Leibowitz of Inside the Yield Book had a PhD in math before going into finance.
+    Professor Edward Thorp started one of the first hedge funds based on statistical arbitrage. Check out his autobiography A Man for all Markets, along with Beat the Dealer and Beat the Market.
+    Alongside Thorp as one of the first “quants” who applied mathematical and algorithmic principals to Wall Street is Jim Simons, known in math for the Chern-Simons form, and famous publicly for his hedge fund Rennaissance Technology and its Medallion Fund. His life is chronicled in the biography The Man Who Solved the Market.
+
+Further Video References
+
+I haven’t watched all of these, but I’ve gone through most of them and found them helpful, for those who learn by watching:
+Hidden Markov Models & Bayesian Methods
+
+    Jim Simons Trading Secrets: Markov Process – QuantProgram
+    Hidden Markov Model Clearly Explained! Part 5 – Normalized Nerd
+    A Friendly Introduction to Bayes Theorem and Hidden Markov Models – Serrano.Academy
+
+Long Short-Term Memory (LSTM) & Recurrent Neural Networks (RNN)
+
+    Long Short-Term Memory (LSTM), Clearly Explained – StatQuest with Josh Starmer
+    LSTM Top Mistake in Price Movement Predictions for Trading – CodeTrading
+    LSTM Networks: Explained Step by Step! – ritvikmath
+    An Introduction to RNN and LSTM – DigitalSreeni
+    Deep Learning: Long Short-Term Memory Networks (LSTMs) – MATLAB
+    Illustrated Guide to LSTMs and GRUs: A Step-by-Step Explanation – The AI Hacker
+
+Automated analysis and trading in python
+
+    Full Courses
+        Algorithmic Trading Using Python - 3 hour course. Video here.
+        Algorithmic Trading Using Python - 4 hour course. Video here.
+        How To Build A Trading Bot In Python - 9 hour course. Video here.
+    Demos
+        Stock Option Screener in Python - 16 min demo. Video here.
+        Introduction to Algorithmic Trading Using Python - 17 min demo. Video here.
+        How To Build A Trading Bot In Python - 18 min demo. Video here.
+        How to Code a Trading Bot with QuantConnect - 23 min demo. Video here.
+        Coding an Options Trading Algorithm with QuantConnect - 26 min demo. Video here.
+        Probability Distribution of Stock Returns - 35 min demo. Video here.
+        How to Code an AI Trading bot - 35 min demo. Video here.
+
+Understanding options
+
+Options contracts are a type of derivative instrument, because they are derived from an underlying asset (a security specified by a stock symbol), a strike price, and an expiration date. A call option gives you the right to buy 100 shares of a security at the strike price before the expiration date, and a put option gives you the right to sell 100 shares of a security at the strike price before the expiration date. The current value of an options contract is a function of the time remaining until expiration, the current price of the underlying security, and the volatility. The intrinsic value is the amount of money that can be made by exercising the contract at expiration if it were to expire today; if it expires in the money, meaning the stock price is currently above the strike price for calls, or below the strike price for puts, then this is given by the difference between the current price of the stock and the strike price, multiplied by 100. Otherwise, it is out of the money, and the intrinsic value is just $0 (it has no intrinsic value). The extrinsic value (or time value) is the value derived from the uncertainty and volatility when there is still time remaining until expiration. The total value is the sum of these. Since the time value exponentially decays down to $0 by the expiration date (a process called “theta decay” or “time decay”), at expiration the total value of the option is just the intrinsic value, which may also be $0. Holders of options contracts often will try to sell before expiration, to avoid the decaying value. Sellers of options profit from time decay, but may still close before expiration to limit risk. Complex options strategies may have multiple legs, composed of buying and selling calls and puts at various strike prices and expiration dates, but they are still always either net long or net short on the underlying.
+
+    Pretty much all complex options strategies are made by combining different types of spreads. These all require level 3 options trading. For a basic overview of options, start here and here. You may also want to start learning about the Greeks.
+    Here is a nice video on long vertical spreads, also called debit spreads, which is probably the most similar to buying calls or puts directly. The difference is you somewhat offset theta decay (though also limiting your maximum possible gain) by simultaneously selling an equal number of options. Here is the video.
+    Here is another video, by the same channel, on short vertical spreads, also called credit spreads. This is where you are trying to profit from theta decay and taking on the role of the “option seller.” The problem with selling options though, is that your losses can be huge if the options you sold end up in the money, so you can offset those risks by buying an equal number of options that are further out of the money. This limits your total possible losses. Here is the video.
+    If you want to go more in depth, there’s a guy I used to watch who does pretty long detailed videos. Here’s his video on both types of vertical spreads.
+    There is also the wheel, which requires owning the underlying stock. Here’s a video on it.
+    For an explanation of options pricing, see The Trillion Dollar Equation (Black-Scholes/Merton).
+    Once you start watching these videos, you’ll find a lot of similar channels with different people’s explanations and strategies, so I encourage you to explore and discover new channels that work for you!
+
+Understanding futures
+
+Futures, like options, are also a type of derivative, whose price is based on an underlying asset, whether it’s an index (e.g., for E-mini S&P futures contracts), or commodities like gold, Bitcoin, corn, and oil. While futures have an expiration date, and quite a bit of leverage, their profit and loss settles to the difference with the underlying more linearly, in a way that is more comparable to forex. The margin requirements offset the leverage they provide, and further leverage can be provided by trading options on futures.
+
+    What are Futures? - the Plain Bagel
+    What are futures? - MoneyWeek Investment Tutorials
+    Understanding Futures Margin - Charles Schwab
+    Differences Between Futures and Forward Contracts
+
+Understanding forex
+
+Forex (foreign exchange) trading involves the global decentralized market for currency exchange. Unlike futures (which operate 23/5), the spot forex market operates 24/5, and is traded in pairs of currencies (e.g., USD/JPY, GBP/USD, etc.). Currency futures, also known as an FX future or a foreign exchange future, is a futures contract to exchange one currency for another at a specified date in the future at a price (exchange rate) that is fixed on the purchase date.
+GitHub repositories
+
+    thequantpy
+    Algorithmic Trading in Python
+    Deep Learning Portfolio
+    Moon Dev AI Agents for Trading
+
+Medium articles
+
+    Advanced Stock Pattern Prediction Using LSTM with Attention Mechanism
+    How to Create a Sentiment Analysis Model in Python
+    How I Found a Simple Way to Use Machine Learning in Stock Trading
+    Top 10 Quantitative Trading Strategies with Python
+    Creating a Scalping Strategy in Python with a 74% Win Rate
+    Building a Stock Market Engine from Scratch in Rust (Part I)
+    Algorithmic Trading Guide: High-Frequency Liquidity-Taking Strategy
+    Backtesting the Most Underrated SMA Trading Strategy
+    Algorithmically Identifying Stock Price Support & Resistance in Python
+    I Have Just Created a Trading EA Monster
+    3 Secure Trading Strategies for 2024
+    I Built an Algorithmic Trading System in Rust – Here’s What I Regret
+    Architecting a Trading System
+    Python for Options Trading #3: A Trade with 100% Probability of Profit
+    Rust in Finance: Building a Scalable High-Frequency Trading Platform
+    An Algo Trading Strategy That Made 8,371% – A Python Case Study
+    An In-Depth Guide on Mathematically Improving Your Trading Strategy
+
+© 2025 Robert Costa. All rights reserved.
+
