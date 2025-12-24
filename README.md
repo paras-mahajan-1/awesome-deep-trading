@@ -470,3 +470,260 @@ Medium articles
 
 © 2025 Robert Costa. All rights reserved.
 
+
+That’s the right intuition — truly valuable trading books are not the ones pushed by Amazon algorithms or YouTube gurus.
+The real “diamond in the coal” books are usually:
+
+Out of print / academic / niche
+
+Written for practitioners, not retail traders
+
+Hard to read, not motivational
+
+Focused on process, statistics, and structure, not “signals”
+
+Below is a curated list of genuinely hidden / under-discussed books that explain core methodology, strategy formation, and why edges exist. These books won’t make you rich by reading them — but they teach how rich trading systems are actually built.
+
+💎 TRUE “HIDDEN DIAMOND” BOOKS ON ALGORITHMIC TRADING
+1. “Trading and Exchanges” – Larry Harris
+
+📉 This is not marketed as an algo book — that’s why it’s gold.
+
+Why it’s hidden:
+
+Used internally at prop firms & exchanges
+
+Academic tone scares most people away
+
+What it really teaches:
+
+How markets are designed
+
+Where spreads, slippage, and edge come from
+
+Who you are trading against
+
+If you don’t understand this book, your algorithm is guessing.
+
+2. “Market Microstructure Theory” – Maureen O’Hara
+
+⚙️ Painful to read. Extremely valuable.
+
+Why it’s hidden:
+
+Mathematical
+
+Zero hype
+
+No “strategy recipes”
+
+What you gain:
+
+How order books behave
+
+Why certain strategies stop working
+
+How liquidity providers actually profit
+
+This book explains why most retail algos are systematically disadvantaged.
+
+3. “Evidence-Based Technical Analysis” – David Aronson
+
+📊 One of the most dangerous books to bad traders.
+
+Why it’s hidden:
+
+Destroys indicator-based trading myths
+
+Requires statistics knowledge
+
+No excitement, no promises
+
+Core value:
+
+Teaches scientific testing of strategies
+
+Introduces multiple hypothesis testing
+
+Explains why most backtests lie
+
+This book alone can save you years of wasted strategy-building.
+
+4. “Statistically Sound Machine Learning for Algorithmic Trading” – Aronson & Masters
+
+🧠 Almost unknown outside professional circles.
+
+Why it’s hidden:
+
+Written like a research manual
+
+Not beginner-friendly
+
+Zero marketing
+
+What it teaches:
+
+How to apply ML without overfitting
+
+Why 95% of ML trading fails
+
+Correct validation for financial time series
+
+This is far more practical than flashy ML trading books.
+
+5. “The Laws of Trading” – Agustin Lebron
+
+🧠 Short, quiet, devastatingly insightful.
+
+Why it’s hidden:
+
+No code
+
+No indicators
+
+No strategy templates
+
+What it gives you:
+
+Mental models of market behavior
+
+How edge actually emerges
+
+Why complexity usually reduces returns
+
+Many professional quants quietly recommend this book.
+
+6. “A Non-Random Walk Down Wall Street” – Andrew Lo & MacKinlay
+
+📈 Misunderstood classic.
+
+Why it’s hidden:
+
+Sounds like Efficient Market Hypothesis
+
+Academic writing style
+
+What it actually shows:
+
+Markets are not fully random
+
+Where predictability appears
+
+Why predictability is unstable
+
+This book explains why strategies decay — a crucial algo insight.
+
+7. “The Evaluation and Optimization of Trading Strategies” – Robert Pardo
+
+⚙️ Old, ugly, brutally practical.
+
+Why it’s hidden:
+
+No modern branding
+
+No crypto, no AI hype
+
+What it teaches:
+
+Walk-forward testing (correctly)
+
+Parameter stability
+
+Why optimization ruins strategies
+
+Many professional systems still follow Pardo’s framework.
+
+8. “Expected Returns” – Antti Ilmanen
+
+📊 Not an algo book — but critical.
+
+Why it’s hidden:
+
+Institutional-level reading
+
+Focused on long-term returns
+
+What you learn:
+
+Why factors exist (momentum, carry, value)
+
+Risk premia vs data mining
+
+How institutions think about strategy portfolios
+
+This book helps you design strategy portfolios, not single algos.
+
+9. “Systematic Trading” – Robert Carver
+
+⚖️ Quietly brilliant.
+
+Why it’s hidden:
+
+Not flashy
+
+UK quant style writing
+
+What it gives you:
+
+Position sizing logic
+
+Volatility targeting
+
+Risk-first strategy construction
+
+This is how real systematic funds operate, simplified.
+
+10. “My Life as a Quant” – Emanuel Derman
+
+🧠 Autobiography — but don’t underestimate it.
+
+Why it’s hidden:
+
+Looks like a memoir
+
+No strategies inside
+
+Hidden value:
+
+How quants think
+
+Model risk
+
+The danger of believing your own models
+
+This book teaches humility — essential for survival.
+
+🧠 WHY THESE BOOKS DON’T MAKE PEOPLE “EASILY RICH”
+
+Because they:
+
+Require deep thinking
+
+Don’t give plug-and-play strategies
+
+Force you to confront uncomfortable truths
+
+Demand statistics, patience, and skepticism
+
+Most people prefer:
+
+“RSI + MACD + AI = profit”
+
+These books instead teach:
+
+“Markets punish lazy reasoning.”
+
+📚 HOW TO READ THESE LIKE A PRO
+
+Don’t binge-read.
+Read with intent:
+
+Read → extract principles
+
+Translate principle → hypothesis
+
+Hypothesis → simple test
+
+Test → reject most ideas
+
+Keep only robust logic
